@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Buscando los 4 !!</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12 text-center mb-2">
+                <h1>Buscando los 4 !!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center mb-1">
+                <h2 class="text-center">Reglas</h2>
+                <div class="text-start">
+                    <p> El juego consiste en descubrir los 4 números escondidos en la posición correcta.</p>
+                    <p> Cada uno de los 4 números NO puede repetirse y pueden ser únicamente de 0 a 9.</p>
+                    <h3 class="text-center">Ayudas</h3>
+                    <p> Al elegir 4 números el sistema informará el resultado.</p>
+                    <p> Verde - El número EXISTE y está en el lugar correcto .</p>
+                    <p> Amarillo - El número EXISTE y pero NO está en el lugar correcto .</p>
+                    <p> Rojo - El número NO EXISTE .</p>
+                </div>
+            </div>
+            <div class="col-6 text-center mb-1">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-success pb-4 pt-4" onclick="jugar()">jugar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="containerImgJuego">
+                    <img src="/images/nro4.png" alt="Nro. 4">
+                </div>
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 align-center">
+                <div class="d-grid">
+                    <button type="button" class="btn btn-info" onclick="iniciarJuego()">Nuevo Juego</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="" src="/main.js"></script>
+</body>
+
+</html>
